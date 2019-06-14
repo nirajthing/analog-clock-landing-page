@@ -1,0 +1,41 @@
+{% load static %}
+<!doctype html>
+<html lang="eng">
+
+<head>
+    <title>Album example for Bootstrap · Bootstrap</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    <link href="{% static 'css/style.css' %}" rel="stylesheet">
+
+<body style="background-image: url('{% static '/gloomy.jpg' %}')">
+    
+        <main role="main">
+
+            <div id="time"></div><br>
+            <div id="clock" > 
+            <div id="hr-hand"></div>
+            <div id="min-hand"></div>
+            <div id="sec-hand"></div>
+      
+        </main>
+        <div class="container text-center"><h1 data-text="[COMING SOON]"> COMING SOON </h1> <hr class="border"> </div>
+        <div class="button" ></div>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" ></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+        <script src="{% static 'js/script.js' %}"></script> 
+     
+ <div class="socialmedia">
+     <ul>
+         <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+         <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+         <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+         <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+     </ul>
+ </div>
+</body>
+
+</html>
