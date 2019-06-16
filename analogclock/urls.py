@@ -20,4 +20,5 @@ import clock.views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', clock.views.anlgClock, name='anlgClock'),
+    path('next_page',clock.views.nextpage, name='nextpage'),
 ]

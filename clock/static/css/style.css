@@ -18,7 +18,7 @@ body{
   left: 50%;
   padding: 0;
   margin: 0;
-  transform: translate(-50%, 380%);
+  transform: translate(-50%, 499%);
   display: flex;
 
 }
@@ -30,8 +30,8 @@ body{
 
 .socialmedia ul li .fa
 {
-  font-size: 40px;
-  line-height: 60px;
+  font-size: 35px;
+  line-height: 54px;
   transition: 0.6s;
   color: black;
 }
@@ -41,8 +41,8 @@ body{
 {
   position: relative;
   display: block;
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   text-align: center;
   transition: .6s;
   box-shadow: 0 5px 4px rgba(0, 0, 0, 0.5);
@@ -58,6 +58,7 @@ body{
 .socialmedia ul li:nth-child(1) a:hover
 {
     background-color: #3b5999;
+    
 }
 .socialmedia ul li:nth-child(2) a:hover
 {
@@ -151,9 +152,11 @@ h1 {
 
   width: 120px;
   height: 50px;
-  position: fixed;
+  position: relative;
   align-content: center;
-  transform: translate(577%, 105%);
+  /* transform: translate(580%, 105%); */
+  margin: auto;
+  margin-top: 4.2%;
   overflow:hidden;
   cursor: pointer;
   color: rgb(243, 234, 234);
